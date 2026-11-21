@@ -1,0 +1,39 @@
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Arial;background:#f6f7fb;color:#1a1a2e}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:240px;background:#fff;padding:22px 16px;border-right:1px solid #eee;display:flex;flex-direction:column}
+.logo{font-size:22px} .logo span{display:block;font-size:9px;letter-spacing:3px;color:#888}
+.workspace{margin:24px 0 10px;font-size:13px;font-weight:600} .workspace span{float:right} .workspace small{display:block;font-weight:400;color:#888;font-size:11px}
+.menu-label{font-size:10px;color:#aaa;letter-spacing:1px}
+.menu div{padding:10px 12px;border-radius:10px;font-size:13px;margin:2px 0;cursor:pointer;color:#444}
+.menu .active{background:#f0efff;color:#5a4bff;font-weight:700}
+.progress-card{background:#f3f0ff;padding:14px;border-radius:12px;font-size:12px;margin-top:18px} .progress-card p{color:#666} .bar{height:6px;background:#ddd;border-radius:10px;margin-top:8px} .bar div{width:38%;height:100%;background:#5a4bff;border-radius:10px}
+.bottom-menu{margin-top:auto;font-size:13px;color:#555} .profile{display:flex;gap:10px;align-items:center;border-top:1px solid #eee;padding-top:14px} .avatar{width:36px;height:36px;background:#f0e0ff;border-radius:50%;display:grid;place-items:center;font-weight:700} .profile small{display:block;color:#888}
+.main{flex:1;padding:14px 26px}
+.topbar{display:flex;align-items:center;gap:18px;font-size:13px} .topbar p{flex:1;color:#888} .topbar b{color:#111}
+.search{background:#fff;padding:8px 14px;border-radius:20px;color:#888;display:flex;gap:20px} kbd{background:#f0f0f0;padding:2px 6px;border-radius:4px}
+.oc{background:#e9e0ff;padding:7px 9px;border-radius:50%;font-weight:700}
+.header{display:flex;justify-content:space-between;align-items:center;margin:16px 0} .header h1{margin:0;font-size:26px} .header p{color:#777;font-size:13px}
+.btn-white{background:#fff;border:1px solid #ddd;padding:9px 14px;border-radius:8px} .btn-blue{background:#5a4bff;color:#fff;border:none;padding:9px 14px;border-radius:8px;margin-left:8px}
+.filters{display:flex;gap:10px;align-items:center;margin-bottom:16px} .filters span{background:#fff;padding:8px 12px;border-radius:8px;font-size:13px} .filters small{margin-left:auto;color:#888}
+.content{display:flex;gap:18px;align-items:flex-start}
+.left{flex:1}
+.timetable-card,.assess-card{background:#fff;border-radius:14px;padding:18px;margin-bottom:16px}
+.tt-head{display:flex;justify-content:space-between} .tt-head p{color:#888;font-size:11px;margin:4px 0} .tt-head button{border:1px solid #ddd;background:#fff;padding:6px 10px;border-radius:8px;margin-left:4px} .today{font-weight:700}
+.grid-head,.grid-row{display:grid;grid-template-columns:52px repeat(5,1fr);gap:8px}
+.grid-head span{background:#f0efff;padding:8px;border-radius:8px;text-align:center;font-size:12px;font-weight:700} .grid-head span:first-child{background:none;text-align:left;color:#888;font-size:11px}
+.time{font-size:12px;color:#555;padding-top:10px} .time small{display:block;color:#999}
+.cell{padding:10px;border-radius:10px;min-height:72px;cursor:pointer;border:1px solid transparent} .cell b{font-size:12px;display:block} .cell span{font-size:11px;color:#555;display:block;margin-top:4px} .cell small{font-size:10px;color:#888}
+.math{background:#f0efff} .phy{background:#e8f8ee} .eng{background:#fff2e0} .cs{background:#f0efff} .study{background:#fff;border:1px solid #eee} .selected{border:2px solid #5a4bff!important}
+.lunch{text-align:center;font-size:11px;color:#888} .sessions{display:flex;justify-content:space-between;font-size:11px;color:#888}
+.ass-head{display:flex;justify-content:space-between} .ass-head p{font-size:12px;color:#888} .ass-head button{background:#fff;border:1px solid #ddd;padding:8px 12px;border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px} th{font-size:11px;color:#888;text-align:left;padding:10px;background:#f8f9ff} td{padding:14px 10px;border-bottom:1px solid #f0f0f0} .badge{background:#eef0ff;color:#5a4bff;padding:5px 10px;border-radius:20px;font-size:11px}
+.note{font-size:11px;color:#888} .info{background:#f0f0ff;padding:10px;border-radius:8px;font-size:12px;color:#555}
+.edit-panel{width:320px;background:#fff;border-radius:14px;padding:18px} .edit-head{display:flex;justify-content:space-between} .edit-sub{font-size:12px;color:#888}
+.tabs{display:flex;gap:20px;border-bottom:1px solid #eee;margin:12px 0} .tab-active{border-bottom:2px solid #5a4bff;color:#5a4bff;padding-bottom:8px;font-weight:700}
+label{font-size:12px;font-weight:600;display:block;margin-top:12px} select,textarea{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;margin-top:6px;background:#fff}
+.two{display:flex;gap:10px} .repeat{display:flex;justify-content:space-between;align-items:center;margin-top:8px} .days{display:flex;gap:6px} .days span{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;background:#f0f0f0;font-size:11px} .days .on{background:#e9e0ff;color:#5a4bff;font-weight:700}
+.repeat-note{color:#888} textarea{height:52px}
+.success{background:#e8f8ee;color:#1a7a3a;padding:10px;border-radius:8px;font-size:12px;margin-top:12px}
+.actions{display:flex;gap:10px;margin-top:16px} .actions button{flex:1;padding:11px;border-radius:8px;border:1px solid #ddd;background:#fff} .actions .save{background:#5a4bff;color:#fff;border:none}
+.delete{color:#e33;font-size:12px;margin-top:14px;cursor:pointer} footer{display:flex;justify-content:space-between;font-size:11px;color:#999;margin-top:14px}
+@media(max-width:900px){.sidebar{display:none}.content{flex-direction:column}.edit-panel{width:100%}}
